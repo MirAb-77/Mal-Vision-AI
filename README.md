@@ -1,4 +1,6 @@
-# 🧬💀 MALWAREVISION AI // CYBER DEFENSE GRID
+# 💀 MALWAREVISION AI 
+
+## “Every file is a potential threat. Every prediction is a decision.”
 
 ## ⚡ Threat Intelligence | Malware Detection | SOC Simulation Engine ⚡
 
