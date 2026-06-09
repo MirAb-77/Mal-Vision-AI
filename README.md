@@ -1,8 +1,4 @@
-Here is your **clean ROOT README.md in proper Markdown format**, cyberpunk SOC style, and with a **clear placeholder for frontend section** (Streamlit UI / dashboard).
 
----
-
-```md
 # MALWAREVISION AI
 ## Cyber Threat Intelligence & Malware Analysis Platform
 
