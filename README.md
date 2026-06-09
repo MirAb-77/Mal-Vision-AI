@@ -1,194 +1,243 @@
+# 🧬💀 MALWAREVISION AI // CYBER DEFENSE GRID
 
-# MALWAREVISION AI
-## Cyber Threat Intelligence & Malware Analysis Platform
+## ⚡ Threat Intelligence | Malware Detection | SOC Simulation Engine ⚡
 
 ---
-
-## SYSTEM BOOT SEQUENCE
 
 ```
+██████████████████████████████████████████████
+█  INITIALIZING CYBER DEFENSE MATRIX          █
+██████████████████████████████████████████████
 
-[ INITIALIZING MALWAREVISION AI SYSTEM ]
-Loading PE Analysis Engine.............. OK
-Loading CNN Malware Detector............ OK
-Activating Explainability Layer......... OK
-Connecting Threat Intelligence API...... OK
-Launching SOC Dashboard................. OK
+[✓] PE ANALYSIS ENGINE        LOADED
+[✓] CNN VISION MODEL          ACTIVE
+[✓] SHAP EXPLAINER            ONLINE
+[✓] LIME ENGINE               ONLINE
+[✓] THREAT INTEL (VT)         CONNECTED
+[✓] SOC DASHBOARD             DEPLOYED
 
-STATUS: ONLINE
-MODE: CYBER DEFENSE ACTIVE
-
-````
-
----
-
-## OVERVIEW
-
-MalwareVision AI is a cybersecurity intelligence system designed to detect and analyze malicious software using:
-
-- Portable Executable (PE) static analysis
-- Deep learning-based malware image classification
-- Explainable AI (SHAP + LIME)
-- Threat intelligence enrichment
-- SOC-style interactive dashboard
-
-The system simulates a real-world Security Operations Center (SOC) environment for malware analysis and incident response.
-
----
-
-## CORE CAPABILITIES
-
-- Malware classification using dual-model architecture (PE + CNN)
-- Real-time inference pipeline
-- Explainable AI decision tracing
-- Threat intelligence validation (VirusTotal integration)
-- Automated forensic report generation
-- SOC-style monitoring dashboard
-
----
-
-## SYSTEM PIPELINE
-
-```mermaid
-graph TD
-A[Input File: PE / Binary] --> B[Feature Extraction Layer]
-B --> C[Dual Model Inference Engine]
-C --> D1[PE Classification Model]
-C --> D2[CNN Image Model]
-D1 --> E[Fusion Layer]
-D2 --> E
-E --> F[Explainability Engine: SHAP / LIME]
-F --> G[Threat Intelligence API]
-G --> H[SOC Dashboard Output]
-````
-
----
-
-## MODEL PERFORMANCE
-
-### PE STATIC ANALYSIS MODEL
-
-| Metric    | Score |
-| --------- | ----- |
-| Accuracy  | 87.1% |
-| Precision | 94.1% |
-| Recall    | 88.0% |
-| F1 Score  | 87.5% |
-| ROC-AUC   | 93.5% |
-
----
-
-### CNN IMAGE MODEL
-
-| Metric    | Score       |
-| --------- | ----------- |
-| Accuracy  | (add value) |
-| Precision | (add value) |
-| Recall    | (add value) |
-| F1 Score  | (add value) |
-| ROC-AUC   | (add value) |
-
----
-
-## AI EXPLAINABILITY
-
-* SHAP: Global feature importance analysis
-* LIME: Local prediction explanation
-* Feature attribution mapping
-* Decision trace visualization
-
----
-
-## FRONTEND SYSTEM (SOC DASHBOARD)
-
-> This section represents the interactive cybersecurity interface.
-
-### Features:
-
-* Animated terminal boot screen
-* Dark SOC-themed dashboard UI
-* Real-time malware detection simulation
-* Multi-page navigation system
-* Threat alert visualization panel
-* Explainability visualization (SHAP / LIME views)
-
-### Frontend Implementation:
-
-```
-[ PLACE FRONTEND CODE / STREAMLIT UI HERE ]
+>> STATUS: SYSTEM ONLINE
+>> SECURITY LEVEL: MAXIMUM DEFENSE MODE
 ```
 
 ---
 
-## ARCHITECTURE VISUALIZATION
+# ⚙️ SYSTEM OVERVIEW
 
-### Technical System Architecture
+🧠 MalwareVision AI is a **next-generation cyber threat intelligence system** designed to simulate a **real SOC (Security Operations Center)**.
+
+It detects malware using:
+
+*  PE static feature intelligence
+*  AI-based malware image vision (CNN)
+*  Explainable AI (SHAP + LIME)
+*  Threat intelligence enrichment
+*  Automated forensic reporting engine
+
+---
+
+# 🛰️ CORE INTELLIGENCE MODULES
+
+▣  Malware Classification Engine
+▣  Dual AI Model Fusion (PE + CNN)
+▣  Explainable AI Layer (XAI)
+▣  VirusTotal Threat Validation
+▣  Real-time SOC Dashboard Simulation
+▣  Automated Incident Reporting
+
+---
+
+# ⚡ SYSTEM PIPELINE (CYBER GRID)
 
 ```
-[ PLACE IMAGE HERE: assets/technical_architecture.png ]
+🟢 INPUT FILE
+      ↓
+🧬 FEATURE EXTRACTION LAYER
+      ↓
+🧠 DUAL MODEL ENGINE
+   ├── PE CLASSIFIER
+   └── CNN IMAGE CLASSIFIER
+      ↓
+🔀 FUSION DECISION ENGINE
+      ↓
+🔍 SHAP + LIME EXPLAINABILITY
+      ↓
+🌐 THREAT INTEL ENRICHMENT
+      ↓
+📊 SOC DASHBOARD OUTPUT
 ```
 
 ---
 
-### AI Explainability Framework
+# 📊 MODEL PERFORMANCE GRID
+
+## 🖼️ CNN IMAGE MODEL
+
+| Metric    | Score    |
+| --------- | -------- |
+| Accuracy  |  87.1%  |
+| Precision |  94.1% |
+| Recall    |  88.0% |
+| F1 Score  |  87.5% |
+| ROC-AUC   |  93.5% |
+
+---
+
+## 🧬 PE STATIC MODEL
+
+| Metric    | Score  |
+| --------- | ------ |
+| Accuracy  | 🔲 98.1% |
+| Precision | 🔲 97.6% |
+| Recall    | 🔲 94.1% |
+| F1 Score  | 🔲 98.1% |
+| ROC-AUC   | 🔲 96.1% |
+
+---
+
+# 🧠 EXPLAINABLE AI CORE
+
+🟣 SHAP ENGINE
+→ Global feature threat contribution mapping
+
+🟡 LIME ENGINE
+→ Local prediction explanation per file
+
+🟢 FORENSIC TRACE
+→ Step-by-step malware decision tracking
+
+---
+
+# 🖥️ FRONTEND // SOC INTERFACE GRID
 
 ```
-[ PLACE IMAGE HERE: assets/explainability_framework.png ]
+╔════════════════════════════════════╗
+║   MALWAREVISION SOC DASHBOARD      ║
+╠════════════════════════════════════╣
+║  📡 Live Threat Feed               ║
+║  ⚠️ Malware Alerts                 ║
+║  🧬 File Analysis Panel           ║
+║  🔍 Explainability Viewer         ║
+║  📊 Risk Scoring Engine           ║
+╚════════════════════════════════════╝
+```
+
+### 🎨 UI FEATURES
+
+* Dark cyberpunk SOC theme
+*  Neon blue / green accents
+*  Live fake attack simulation feed
+*  AI explanation panels
+*  Report generator UI
+*  Multi-page navigation system
+
+---
+
+## TECH STACK GRID
+
+### CORE ENGINE
+![Python](https://img.shields.io/badge/Python-CyberCore-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### MACHINE LEARNING
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML_Engine-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+### FRONTEND / SOC UI
+![Streamlit](https://img.shields.io/badge/Streamlit-SOC_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### DATA ENGINE
+![Pandas](https://img.shields.io/badge/Pandas-Data_Engine-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+![NumPy](https://img.shields.io/badge/NumPy-Compute_Core-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+### EXPLAINABLE AI
+![SHAP](https://img.shields.io/badge/SHAP-Explainability_Layer-8A2BE2?style=for-the-badge)
+
+![LIME](https://img.shields.io/badge/LIME-Local_Interpretation-00C853?style=for-the-badge)
+
+### THREAT INTEL
+![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat_Intelligence-4285F4?style=for-the-badge&logo=virustotal&logoColor=white)
+
+---
+
+# 🏗️ ARCHITECTURE VISUALIZATION
+
+### 🧬 SYSTEM ARCHITECTURE
+
+📍 (PLACE IMAGE HERE)
+
+```
+<img width="1536" height="911" alt="ChatGPT Image Jun 5, 2026, 04_50_20 PM" src="https://github.com/user-attachments/assets/bf3f0781-d5cd-4987-afb1-2130b05d6cd7" />
+
 ```
 
 ---
 
-## PROJECT STRUCTURE
+### 🧠 EXPLAINABILITY FRAMEWORK
+
+📍 (PLACE IMAGE HERE)
+
+```
+<img width="1536" height="1024" alt="ChatGPT Image Jun 5, 2026, 05_14_36 PM" src="https://github.com/user-attachments/assets/eb3b7157-d27b-4a76-84d0-096b36f41ae6" />
+
+```
+
+---
+
+# 🧾 PROJECT STRUCTURE
 
 ```
 malwarevision/
 │
-├── app.py
-├── models/
-├── views/
-├── utils/
-├── requirements.txt
-└── assets/
+├── 🧠 app.py
+├── 🧬 models/
+├── 🖥️ views/
+├── ⚙️ utils/
+├── 📦 requirements.txt
+└── 🧾 assets/
 ```
 
 ---
 
-## SECURITY POSITIONING
+# 🛰️ SECURITY POSITIONING
 
 This system is designed for:
 
-* Cybersecurity research environments
-* Malware analysis and detection studies
-* SOC training simulations
-* AI explainability research
-* Threat intelligence visualization systems
+▣ Cybersecurity SOC training environments
+▣ Malware analysis research labs
+▣ AI explainability studies
+▣ Threat intelligence simulation systems
+▣ Academic + industrial ML security demos
 
 ---
 
-## FUTURE ENHANCEMENTS
+# 🚀 FUTURE EVOLUTION
 
-* Real-time malware threat feed integration
-* Live endpoint monitoring module
-* Adversarial malware detection system
-* Cloud-based SOC deployment
-* Graph-based malware intelligence mapping
+⚡ Live malware feed integration
+⚡ Real endpoint monitoring system
+⚡ Advanced adversarial malware detection
+⚡ Cloud SOC deployment version
+⚡ Graph-based threat intelligence network
 
 ---
 
-## SYSTEM STATUS
+# 🟢 SYSTEM STATUS
 
 ```
-[ SYSTEM OPERATIONAL ]
-Detection Engine: ACTIVE
-Explainability Layer: ONLINE
-SOC Dashboard: READY
-Threat Intelligence: CONNECTED
+████ SYSTEM OPERATIONAL ████
 
-STATUS: CYBER DEFENSE SYSTEM RUNNING
+🧠 Detection Engine     ACTIVE
+🔍 Explainability       ONLINE
+📡 SOC Dashboard       RUNNING
+🌐 Threat Intel        CONNECTED
+
+>> CYBER DEFENSE GRID READY
 ```
 
-```
+---
 
+# 💀 FINAL STATE
 
-**“build cyber frontend UI”** 👍
-```
+> “Every file is a potential threat. Every prediction is a decision.”
+
