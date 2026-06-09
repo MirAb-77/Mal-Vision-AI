@@ -170,27 +170,21 @@ It detects malware using:
 
 # 🏗️ ARCHITECTURE VISUALIZATION
 
-### 🧬 SYSTEM ARCHITECTURE
+---
 
-📍 (PLACE IMAGE HERE)
+## 🧬 SYSTEM ARCHITECTURE
 
-```
-<img width="1536" height="911" alt="ChatGPT Image Jun 5, 2026, 04_50_20 PM" src="https://github.com/user-attachments/assets/bf3f0781-d5cd-4987-afb1-2130b05d6cd7" />
+📍 Technical System Design
 
-```
+![System Architecture](https://github.com/user-attachments/assets/bf3f0781-d5cd-4987-afb1-2130b05d6cd7)
 
 ---
 
-### 🧠 EXPLAINABILITY FRAMEWORK
+## 🧠 EXPLAINABILITY FRAMEWORK
 
-📍 (PLACE IMAGE HERE)
+📍 AI Explainability Pipeline
 
-```
-<img width="1536" height="1024" alt="ChatGPT Image Jun 5, 2026, 05_14_36 PM" src="https://github.com/user-attachments/assets/eb3b7157-d27b-4a76-84d0-096b36f41ae6" />
-
-```
-
----
+![Explainability Framework](https://github.com/user-attachments/assets/eb3b7157-d27b-4a76-84d0-096b36f41ae6)
 
 # 🧾 PROJECT STRUCTURE
 
