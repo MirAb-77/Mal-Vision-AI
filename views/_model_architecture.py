@@ -539,7 +539,7 @@ def _perf_chart(title, vals, color):
     fig.update_layout(
         polar=dict(
             bgcolor="rgba(0,0,0,0)",
-            radialaxis=dict(range=[95,100], visible=True,
+            radialaxis=dict(range=[0,100], visible=True,
                             tickfont=dict(color="rgba(200,230,255,0.4)", size=9),
                             gridcolor="rgba(200,230,255,0.06)"),
             angularaxis=dict(tickfont=dict(color="rgba(200,230,255,0.6)",
