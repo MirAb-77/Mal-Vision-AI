@@ -15,6 +15,16 @@ if "user"            not in st.session_state: st.session_state.user             
 if "show_login"      not in st.session_state: st.session_state.show_login       = False
 if "page"            not in st.session_state: st.session_state.page             = "Home"
 
+SHOW_SIDEBAR = st.session_state.get("logged_in", False)
+
+if not SHOW_SIDEBAR:
+    st.markdown("""
+    <style>
+    [data-testid="stSidebar"] {
+        display: none !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 from utils.theme import inject_css
 inject_css()
 
@@ -199,7 +209,6 @@ st.markdown("""
 if not st.session_state.logged_in and not st.session_state.show_login:
 
     st.markdown("""<style>
-    section[data-testid="stSidebar"]{display:none;}
     /* hide all streamlit padding so cube is full-screen */
     .block-container{padding:0 !important;max-width:100% !important;}
     </style>""", unsafe_allow_html=True)
@@ -355,7 +364,6 @@ if not st.session_state.logged_in and not st.session_state.show_login:
 if not st.session_state.logged_in:
 
     st.markdown("""<style>
-    section[data-testid="stSidebar"]{display:none;}
     .block-container{padding-top:40px !important;}
     </style>""", unsafe_allow_html=True)
 
