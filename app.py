@@ -6,7 +6,7 @@ st.set_page_config(
     page_title="MalwareVision AI",
     page_icon="🛡️",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="expanded"
 )
 
 # ── Session State ─────────────────────────────────────────────────────────────
@@ -36,8 +36,6 @@ st.markdown("""
 [data-testid="stSidebarNavItems"],
 [data-testid="stSidebarNavSeparator"],
 section[data-testid="stSidebar"] > div:first-child > div:first-child ul,
-.st-emotion-cache-pbk9r8,
-.st-emotion-cache-1cypcdb,
 nav[data-testid="stSidebarNav"] {
     display: none !important;
     visibility: hidden !important;
@@ -50,9 +48,6 @@ nav[data-testid="stSidebarNav"] {
 }
 /* Hide the auto-generated page links at top of sidebar */
 [data-testid="stSidebarNavLink"],
-[data-testid="collapsedControl"] {
-    display: none !important;
-}
 </style>
 """, unsafe_allow_html=True)
 
