@@ -89,40 +89,45 @@ It detects malware using:
 
 | Metric    | Score  |
 | --------- | ------ |
-| Accuracy  | 🔲 98.1% |
-| Precision | 🔲 97.6% |
-| Recall    | 🔲 94.1% |
-| F1 Score  | 🔲 98.1% |
-| ROC-AUC   | 🔲 96.1% |
+| Accuracy  |  98.1% |
+| Precision |  97.6% |
+| Recall    |  94.1% |
+| F1 Score  |  98.1% |
+| ROC-AUC   |  96.1% |
 
 ---
 
-# 🧠 EXPLAINABLE AI CORE
+# EXPLAINABLE AI CORE
+──────────────────────────────────────────────
 
-🟣 SHAP ENGINE
-→ Global feature threat contribution mapping
+## INTERPRETABILITY ENGINE
 
-🟡 LIME ENGINE
-→ Local prediction explanation per file
+### 🟣 SHAP ENGINE
+![SHAP](https://img.shields.io/badge/SHAP-Feature_Attribution-8A2BE2?style=for-the-badge)
 
-🟢 FORENSIC TRACE
-→ Step-by-step malware decision tracking
+- Global feature contribution mapping  
+- Identifies key malware-driving features  
+- Provides system-wide behavioral insight  
 
 ---
 
-# 🖥️ FRONTEND // SOC INTERFACE GRID
+### 🟡 LIME ENGINE
+![LIME](https://img.shields.io/badge/LIME-Local_Explainability-00C853?style=for-the-badge)
 
-```
-╔════════════════════════════════════╗
-║   MALWAREVISION SOC DASHBOARD      ║
-╠════════════════════════════════════╣
-║  📡 Live Threat Feed               ║
-║  ⚠️ Malware Alerts                 ║
-║  🧬 File Analysis Panel           ║
-║  🔍 Explainability Viewer         ║
-║  📊 Risk Scoring Engine           ║
-╚════════════════════════════════════╝
-```
+- Local prediction explanation per file  
+- Feature-level influence breakdown  
+- Per-sample decision transparency  
+
+---
+
+### 🟢 FORENSIC TRACE ENGINE
+![FORENSIC](https://img.shields.io/badge/FORENSIC-Decision_Tracing-FF6D00?style=for-the-badge)
+
+- Step-by-step prediction tracking  
+- Input → Output decision mapping  
+- Audit-ready malware reasoning logs  
+
+──────────────────────────────────────────────
 
 ### 🎨 UI FEATURES
 
