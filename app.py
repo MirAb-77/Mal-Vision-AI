@@ -491,6 +491,7 @@ if not st.session_state.logged_in:
 # ══════════════════════════════════════════════════════════════════════════════
 
 # ── Welcome Banner ────────────────────────────────────────────────────────────
+# ── Welcome Banner ────────────────────────────────────────────────────────────
 from datetime import datetime
 now = datetime.now().strftime("%H:%M:%S")
 
@@ -521,7 +522,7 @@ st.markdown(f"""
 .wb-badge{{display:flex;align-items:center;gap:6px;background:rgba(0,255,209,0.04);border:1px solid rgba(0,255,209,0.11);border-radius:2px;padding:4px 10px;transition:border-color 0.3s,box-shadow 0.3s;}}
 .wb-badge:hover{{border-color:rgba(0,255,209,0.35);box-shadow:0 0 10px rgba(0,200,150,0.12);}}
 .wb-dot-g{{width:5px;height:5px;border-radius:50%;background:#00FFD1;box-shadow:0 0 6px #00FFD1;animation:blinkDot 2s ease-in-out infinite;}}
-.wb-dot-r{{width:5px;height:5px;border-radius:50%;background:#ff003c;box-shadow:0 0 4px rgba(255,0,60,0.5);}}
+.wb-dot-y{{width:5px;height:5px;border-radius:50%;background:#FFD700;box-shadow:0 0 6px rgba(255,215,0,0.7);animation:blinkDot 2s ease-in-out infinite;}}
 .wb-bl{{font-size:9px;letter-spacing:2px;color:rgba(0,255,209,0.45);}}
 .wb-bv{{font-size:9px;letter-spacing:1px;color:rgba(200,240,225,0.85);}}
 .wb-time{{font-size:8px;letter-spacing:3px;color:rgba(0,255,209,0.28);text-align:right;}}
@@ -541,7 +542,7 @@ st.markdown(f"""
   <div class="wb-right">
     <div class="wb-badge"><div class="wb-dot-g"></div><span class="wb-bl">SYSTEM</span><span class="wb-bv">&nbsp;ONLINE</span></div>
     <div class="wb-badge"><div class="wb-dot-g"></div><span class="wb-bl">SESSION</span><span class="wb-bv">&nbsp;ACTIVE</span></div>
-    <div class="wb-badge"><div class="wb-dot-r"></div><span class="wb-bl">THREATS</span><span class="wb-bv">&nbsp;1,247</span></div>
+    <div class="wb-badge"><div class="wb-dot-y"></div><span class="wb-bl">SCAN STATUS</span><span class="wb-bv">&nbsp;READY</span></div>
     <div class="wb-time">// {now} LOCAL</div>
   </div>
 </div>
