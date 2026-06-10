@@ -271,6 +271,14 @@ def _cnn_section():
             rows = []
             for layer in model.layers:
                 params = layer.count_params()
+                # ── FIX: handle InputLayer & layers without output_shape ──
+                try:
+                    out_shape = str(layer.output_shape)
+                except AttributeError:
+                    try:
+                        out_shape = str(layer.output.shape)
+                    except Exception:
+                        out_shape = "N/A"
                 rows.append({
                     "Layer": layer.name,
                     "Type": layer.__class__.__name__,
