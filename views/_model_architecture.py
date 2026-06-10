@@ -262,8 +262,14 @@ def _cnn_section():
             c1,c2,c3,c4 = st.columns(4)
             total_params = model.count_params()
             c1.metric("Total Parameters", f"{total_params:,}")
-            c2.metric("Input Shape",  str(model.input_shape[1:]))
-            c3.metric("Output Shape", str(model.output_shape[1:]))
+            try:
+                c2.metric("Input Shape",  str(model.input_shape[1:]))
+            except Exception:
+                c2.metric("Input Shape",  str(model.input.shape[1:]))
+            try:
+                c3.metric("Output Shape", str(model.output_shape[1:]))
+            except Exception:
+                c3.metric("Output Shape", str(model.output.shape[1:]))
             c4.metric("Layers",       len(model.layers))
 
             # Layer table
@@ -279,10 +285,11 @@ def _cnn_section():
                         out_shape = str(layer.output.shape)
                     except Exception:
                         out_shape = "N/A"
+
                 rows.append({
                     "Layer": layer.name,
                     "Type": layer.__class__.__name__,
-                    "Output Shape": str(layer.output_shape),
+                    "Output Shape": out_shape,
                     "Parameters": f"{params:,}",
                     "Trainable": "✅" if layer.trainable else "❌"
                 })
